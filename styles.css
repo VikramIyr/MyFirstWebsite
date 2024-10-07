@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 100px 0 50px; /* Adjust padding to give space between the header and navigation */
+    background: linear-gradient(to right, #152e00 0%, #084106 100%);
+    color: white;
+    animation: fadeIn 2s;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Navigation Menu */
+header nav {
+    margin-top: 30px; /* Add margin between the header and the navigation */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    background-color: #1e2736;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #fa0101;
+    transform: scale(1.1);
+}
+
+/* Contact Info */
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-info p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #6a11cb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    animation: fadeIn 2s;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
